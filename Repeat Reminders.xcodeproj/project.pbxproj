@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E2D107415F9BC0D0051A450 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2D107315F9BC0D0051A450 /* UIKit.framework */; };
+		5E2D107615F9BC0D0051A450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2D107515F9BC0D0051A450 /* Foundation.framework */; };
+		5E2D107815F9BC0D0051A450 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2D107715F9BC0D0051A450 /* CoreGraphics.framework */; };
+		5E2D107E15F9BC0E0051A450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E2D107C15F9BC0E0051A450 /* InfoPlist.strings */; };
+		5E2D108015F9BC0E0051A450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D107F15F9BC0E0051A450 /* main.m */; };
+		5E2D108415F9BC0E0051A450 /* RepeatersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D108315F9BC0E0051A450 /* RepeatersAppDelegate.m */; };
+		5E2D108715F9BC0E0051A450 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2D108515F9BC0E0051A450 /* MainStoryboard.storyboard */; };
+		5E2D108A15F9BC0E0051A450 /* RepeatersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D108915F9BC0E0051A450 /* RepeatersViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E2D106F15F9BC0D0051A450 /* Repeat Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Repeat Reminders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2D107315F9BC0D0051A450 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E2D107515F9BC0D0051A450 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E2D107715F9BC0D0051A450 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E2D107B15F9BC0D0051A450 /* Repeat Reminders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Repeat Reminders-Info.plist"; sourceTree = "<group>"; };
+		5E2D107D15F9BC0E0051A450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E2D107F15F9BC0E0051A450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E2D108115F9BC0E0051A450 /* Repeat Reminders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Repeat Reminders-Prefix.pch"; sourceTree = "<group>"; };
+		5E2D108215F9BC0E0051A450 /* RepeatersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepeatersAppDelegate.h; sourceTree = "<group>"; };
+		5E2D108315F9BC0E0051A450 /* RepeatersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepeatersAppDelegate.m; sourceTree = "<group>"; };
+		5E2D108615F9BC0E0051A450 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5E2D108815F9BC0E0051A450 /* RepeatersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepeatersViewController.h; sourceTree = "<group>"; };
+		5E2D108915F9BC0E0051A450 /* RepeatersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepeatersViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E2D106C15F9BC0D0051A450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2D107415F9BC0D0051A450 /* UIKit.framework in Frameworks */,
+				5E2D107615F9BC0D0051A450 /* Foundation.framework in Frameworks */,
+				5E2D107815F9BC0D0051A450 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E2D106415F9BC0D0051A450 = {
+			isa = PBXGroup;
+			children = (
+				5E2D107915F9BC0D0051A450 /* Repeat Reminders */,
+				5E2D107215F9BC0D0051A450 /* Frameworks */,
+				5E2D107015F9BC0D0051A450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E2D107015F9BC0D0051A450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E2D106F15F9BC0D0051A450 /* Repeat Reminders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E2D107215F9BC0D0051A450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E2D107315F9BC0D0051A450 /* UIKit.framework */,
+				5E2D107515F9BC0D0051A450 /* Foundation.framework */,
+				5E2D107715F9BC0D0051A450 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E2D107915F9BC0D0051A450 /* Repeat Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				5E2D108215F9BC0E0051A450 /* RepeatersAppDelegate.h */,
+				5E2D108315F9BC0E0051A450 /* RepeatersAppDelegate.m */,
+				5E2D108515F9BC0E0051A450 /* MainStoryboard.storyboard */,
+				5E2D108815F9BC0E0051A450 /* RepeatersViewController.h */,
+				5E2D108915F9BC0E0051A450 /* RepeatersViewController.m */,
+				5E2D107A15F9BC0D0051A450 /* Supporting Files */,
+			);
+			path = "Repeat Reminders";
+			sourceTree = "<group>";
+		};
+		5E2D107A15F9BC0D0051A450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E2D107B15F9BC0D0051A450 /* Repeat Reminders-Info.plist */,
+				5E2D107C15F9BC0E0051A450 /* InfoPlist.strings */,
+				5E2D107F15F9BC0E0051A450 /* main.m */,
+				5E2D108115F9BC0E0051A450 /* Repeat Reminders-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E2D106E15F9BC0D0051A450 /* Repeat Reminders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2D108D15F9BC0E0051A450 /* Build configuration list for PBXNativeTarget "Repeat Reminders" */;
+			buildPhases = (
+				5E2D106B15F9BC0D0051A450 /* Sources */,
+				5E2D106C15F9BC0D0051A450 /* Frameworks */,
+				5E2D106D15F9BC0D0051A450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Repeat Reminders";
+			productName = "Repeat Reminders";
+			productReference = 5E2D106F15F9BC0D0051A450 /* Repeat Reminders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E2D106615F9BC0D0051A450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Repeaters;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ransom Barber";
+			};
+			buildConfigurationList = 5E2D106915F9BC0D0051A450 /* Build configuration list for PBXProject "Repeat Reminders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E2D106415F9BC0D0051A450;
+			productRefGroup = 5E2D107015F9BC0D0051A450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E2D106E15F9BC0D0051A450 /* Repeat Reminders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E2D106D15F9BC0D0051A450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2D107E15F9BC0E0051A450 /* InfoPlist.strings in Resources */,
+				5E2D108715F9BC0E0051A450 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E2D106B15F9BC0D0051A450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2D108015F9BC0E0051A450 /* main.m in Sources */,
+				5E2D108415F9BC0E0051A450 /* RepeatersAppDelegate.m in Sources */,
+				5E2D108A15F9BC0E0051A450 /* RepeatersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E2D107C15F9BC0E0051A450 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E2D107D15F9BC0E0051A450 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E2D108515F9BC0E0051A450 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E2D108615F9BC0E0051A450 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E2D108B15F9BC0E0051A450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E2D108C15F9BC0E0051A450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E2D108E15F9BC0E0051A450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Repeat Reminders/Repeat Reminders-Prefix.pch";
+				INFOPLIST_FILE = "Repeat Reminders/Repeat Reminders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E2D108F15F9BC0E0051A450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Repeat Reminders/Repeat Reminders-Prefix.pch";
+				INFOPLIST_FILE = "Repeat Reminders/Repeat Reminders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E2D106915F9BC0D0051A450 /* Build configuration list for PBXProject "Repeat Reminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2D108B15F9BC0E0051A450 /* Debug */,
+				5E2D108C15F9BC0E0051A450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2D108D15F9BC0E0051A450 /* Build configuration list for PBXNativeTarget "Repeat Reminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2D108E15F9BC0E0051A450 /* Debug */,
+				5E2D108F15F9BC0E0051A450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E2D106615F9BC0D0051A450 /* Project object */;
+}
